@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="Thk-platform-game"
+run/main_scene="res://Scenes/World.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[physics]
+
+2d/default_gravity=3000.0
